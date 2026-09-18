@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - ShopEasy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="protected">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="home.html">
+            <i class="bi bi-bag-heart"></i> ShopEasy
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNavbar">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+
+            <div class="d-flex flex-wrap align-items-center gap-2">
+                <a class="btn btn-outline-light btn-sm" href="wishlist.html">
+                    <i class="bi bi-heart"></i> Wishlist
+                    <span id="wishlistCount" class="badge text-bg-danger">0</span>
+                </a>
+                <a class="btn btn-outline-light btn-sm" href="cart.html">
+                    <i class="bi bi-cart3"></i> Cart
+                    <span id="cartCount" class="badge text-bg-primary">0</span>
+                </a>
+                <button class="btn btn-warning btn-sm" id="logoutBtn">
+                    <i class="bi bi-box-arrow-right"></i> Logout
+                </button>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<main class="container py-5">
+    <section class="page-heading text-center mb-5">
+        <span class="badge text-bg-primary mb-2">About Us</span>
+        <h1 class="fw-bold">Simple shopping, simple learning.</h1>
+        <p class="text-secondary">ShopEasy is a front-end e-commerce learning project.</p>
+    </section>
+
+    <div class="row g-4 mb-5">
+        <div class="col-md-6">
+            <div class="info-card h-100">
+                <i class="bi bi-shop-window"></i>
+                <h3>Company Introduction</h3>
+                <p>ShopEasy is a demo online store designed to show how a small e-commerce website can be built with browser technologies only.</p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="info-card h-100">
+                <i class="bi bi-bullseye"></i>
+                <h3>Our Mission</h3>
+                <p>Make shopping concepts easy to understand through clear product cards, search, cart and wishlist features.</p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="info-card h-100">
+                <i class="bi bi-eye"></i>
+                <h3>Our Vision</h3>
+                <p>Help beginners understand how HTML, CSS, Bootstrap, JavaScript, JSON and localStorage work together.</p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="info-card h-100">
+                <i class="bi bi-stars"></i>
+                <h3>Why Choose Us?</h3>
+                <p>Clean UI, responsive design and simple JavaScript logic make this project easy to explore and extend.</p>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer class="bg-dark text-white mt-5 py-4">
+    <div class="container text-center">
+        <p class="mb-1 fw-bold"><i class="bi bi-bag-heart"></i> ShopEasy</p>
+        <p class="mb-0 small text-white-50">Simple e-commerce demo for learning HTML, CSS, Bootstrap and JavaScript.</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/auth.js"></script>
+</body>
+</html>
